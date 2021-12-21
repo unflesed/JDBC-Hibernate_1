@@ -1,0 +1,3 @@
+INSERT INTO testTable(name, phone) VALUES ('Vasya','+123456789'), ('Valya', '+7654321'), ('Ivan', '+54321')
+UPDATE testTable SET  phone = '+111111111' where name = 'Ivan'
+DELETE from testTable where name = 'Valya'
